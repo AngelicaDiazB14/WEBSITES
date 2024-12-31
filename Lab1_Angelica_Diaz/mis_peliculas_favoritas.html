@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Mis películas favoritas</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        /* Link color */
+            a:link {
+                color: rgb(77, 244, 58);
+                background-color: transparent;
+                text-decoration: none;
+            }
+            
+            a:visited {
+                color: rgb(77, 244, 58);
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: rgb(89, 0, 255);
+                background-color: transparent;
+                text-decoration: underline;
+            }
+
+            a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            section {
+                padding: 2px;
+                background: rgb(234, 237, 237,0.5);
+                margin-top: 100px;
+                text-align: center; 
+                border-radius: 10px;
+            }
+            table {
+                width: 100%;
+                border-collapse:collapse;
+                margin: 20px 0;
+                color: rgb(239, 240, 240);
+            }
+            table, th, td {
+                border: 0px solid #edf4f0;
+            }
+            th, td {
+                padding: 13px;
+                text-align: left;
+                background-color: #086648;
+            }
+            footer {
+                text-align: center;
+                margin: 20px 0;
+                font-size: 1em;
+                background-color: rgba(89, 94, 86, 0.526);
+                height: 120px;
+            }
+            /* Estilos para el menú de navegación */
+            nav {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+                z-index: 1000;
+                display: flex;
+                justify-content: center;
+                padding: 10px 0;
+            }
+
+            nav a {
+                color: rgb(77, 244, 58);
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 16px;
+            }
+
+            nav a:hover {
+                color: rgb(89, 0, 255);
+                text-decoration: underline;
+            }
+
+            /* Espaciado adicional para compensar el menú fijo */
+            header {
+                padding-top: 60px;
+            }
+
+            @media (max-width: 600px) {
+                nav {
+                    flex-wrap: wrap;
+                }
+                nav a {
+                    margin: 5px;
+                    font-size: 14px;
+                }
+            }
+        </style>
+      
+    </head>
+
+    <body background="images/fondo.jpeg">
+        <!-- Menú de navegación -->
+        <nav>
+            <a href="#seccion1">Animación y Aventura</a>
+            <a href="#seccion2">Ciencia Ficción y Superhéroes</a>
+            <a href="#seccion3">Comedia</a>
+            <a href="#indispensables">Indispensables</a>
+            <a href="#footer">Contacto</a>
+        </nav>
+
+        <header>
+            <h1 style="color: rgb(234, 237, 237);text-align: center">Las mejores películas</h1>
+        </header>
+        
+        <section id="seccion1">
+             <h2 style="color: rgba(248, 248, 246, 0.69); text-align: center; background-color: rgba(96, 158, 239, 0.5); 
+                        border: 4px solid rgb(9, 9, 9,0);height: 40px">Animación y Aventura</h2>
+             <h3>El Gato con Botas: El Último Deseo</h2>
+             <img src="images/gato.webp" 
+                 style="float:center;width: 400px;height:460px">
+             <p style="width: 700"> 
+                <strong>Sinopsis:</strong>  el famoso gato espadachín, Gato con Botas, 
+                descubre que ha gastado ocho de sus nueve vidas y se embarca en una aventura épica para encontrar la 
+                mítica Estrella del Deseo y restaurarlas.
+             </p>  
+             <a href="https://www.youtube.com/watch?v=QaiUm8jNiCk"> Ver tráiler </a>                              
+             
+             <h3>Robot Salvaje</h2>
+             <img src="images/the_wild_robot.jpg" 
+                 style="float:center;width:400px;height:460px;">
+             <p style="width: 700"> 
+                <strong>Sinopsis:</strong>  una robot llamada Roz naufraga en una isla deshabitada y 
+                debe adaptarse al entorno, formando relaciones con la fauna local y 
+                convirtiéndose en madre adoptiva de un ganso huérfano.
+             </p>  
+             <a href="https://www.youtube.com/watch?v=4zWux-Bqt40"> Ver tráiler </a>                              
+          
+             <h3>La Era de Hielo 5: Choque de Mundos</h2>
+             <img src="images/hielo_mundos.jpeg" 
+                    style="float:center;width:400px;height:460px;">
+             <p style="width: 700"> 
+                   <strong>Sinopsis:</strong>  Scrat, en su búsqueda de la bellota, desencadena una serie de 
+                   eventos cósmicos que amenazan la Edad de Hielo. Sid, Manny, Diego y el 
+                   resto de la manada deben embarcarse en una aventura para salvarse.
+             </p>  
+             <a href="https://www.youtube.com/watch?v=FjQqW_W4Pug"> Ver tráiler </a>                              
+        </section>
+        
+
+        <section id="seccion2">
+            <h2 style="color: rgba(248, 248, 246, 0.69); text-align: center; background-color: rgba(96, 158, 239, 0.5); 
+                       border: 4px solid rgb(9, 9, 9,0);height: 40px">Ciencia Ficción y Superhéroes</h2>
+            <h3>Aquaman y el reino perdido</h2>
+            <img src="images/Aquaman2.webp" 
+                style="float:center;width: 400px;height:460px">
+            <p style="width: 700"> 
+               <strong>Sinopsis:</strong>  Aquaman debe trabajar con su medio hermano Orm para evitar que Black Manta destruya su 
+               familia y use el Tridente Negro para sobrecalentar el mundo.
+            </p>  
+            <a href=https://youtu.be/M8W_y0mmJEc?si=S8Gmr3iGlK4wKK58> Ver tráiler </a>                              
+            
+            <h3>Transformers: Rise of the Beasts</h2>
+            <img src="images/transforme.jpeg" 
+                style="float:center;width:400px;height:460px;">
+            <p style="width: 700"> 
+               <strong>Sinopsis:</strong>  Los Autobots y los Decepticons se enfrentan a una nueva amenaza en la Tierra, 
+               con la introducción de los Maximals, Predacons y Terrorcons.
+            </p>  
+            <a href="https://youtu.be/v0d0id78XdE?si=k8TEItN5KXn5WoX3"> Ver tráiler </a>                              
+         
+       
+            <h3>Deadpool & Wolverine</h2>
+            <img src="images/deadpool.jpg" 
+                   style="float:center;width:400px;height:460px;">
+            <p style="width: 700"> 
+                  <strong>Sinopsis:</strong>  Deadpool se une a Wolverine para enfrentar una nueva amenaza que pone en
+                  peligro su universo, en una película llena de humor y acción.
+            </p>  
+            <a href="https://youtu.be/uDzfa0w86Vw?si=CHj20wdJ0IdxrWOl"> Ver tráiler </a>                              
+       </section>
+
+
+       <section id="seccion3">
+            <h2 style="color: rgba(248, 248, 246, 0.69); text-align: center; background-color: rgba(96, 158, 239, 0.5); 
+                    border: 4px solid rgb(9, 9, 9,0);height: 40px">Comedia</h2>
+            <h3>Meet the Spartans</h2>
+            <img src="images/spart.jpeg" 
+                style="float:center;width: 400px;height:460px">
+            <p style="width: 700"> 
+            <strong>Sinopsis:</strong>  Esta película es una parodia de la película "300" y otros elementos de la cultura pop. 
+            Sigue al Rey Leonidas y sus 13 guerreros espartanos mientras se enfrentan al ejército persa de Xerxes.
+            La película está llena de referencias humorísticas a otras películas, programas de televisión y celebridades.
+            </p>  
+            <a href="https://www.youtube.com/watch?v=RY-zJtYYolo"> Ver tráiler </a>                              
+            
+            <h3>La Otra Missy</h2>
+            <img src="images/missy.jpeg" 
+                style="float:center;width:400px;height:460px;">
+            <p style="width: 700"> 
+            <strong>Sinopsis:</strong>  Tim invita accidentalmente a una cita a ciegas desastrosa a un retiro corporativo en Hawái, 
+            pensando que estaba invitando a la mujer de sus sueños. A medida que lidia con sus locuras, descubre el amor y la aventura.
+            </p>  
+            <a href="https://www.youtube.com/watch?v=USyMyS5JDT4"> Ver tráiler </a>                             
+        
+    
+            <h3>Padre No Hay Más Que Uno</h2>
+            <img src="images/padre.jpeg" 
+                style="float:center;width:400px;height:460px;">
+            <p style="width: 700"> 
+                <strong>Sinopsis:</strong>  Javier, un padre de familia que no tiene idea de cómo manejar las tareas del 
+                hogar o cuidar a los niños, se ve obligado a quedarse solo en casa con sus cinco hijos cuando su esposa 
+                Carmen se va de viaje sin él. La película sigue las hilarantes dificultades que enfrenta mientras intenta mantener el orden en casa.
+            </p>  
+            <a href="https://www.youtube.com/watch?v=kCN1-vZPATU"> Ver tráiler </a>                              
+      </section>
+
+      <section id="indispensables" style="background: rgba(182, 131, 209, 0); border-radius: 2px;">
+        <hr>
+          <h2 style="color: rgb(242, 238, 244);">Películas Indispensables</h2>
+          <table>
+              <thead>
+                  <tr>
+                      <th>Título</th>
+                      <th>Género</th>
+                      <th>Año</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Hansel y Gretel: Cazadores de Brujas</td>
+                      <td>Fantasía y Acción</td>
+                      <td>2013</td>
+                  </tr>
+                  <tr>
+                      <td>Guerra Mundial Z</td>
+                      <td>Acción</td>
+                      <td>2013</td>
+                  </tr>
+                  <tr>
+                      <td>El Gato con Botas: El Último Deseo</td>
+                      <td>Animación y Aventura</td>
+                      <td>2022</td>
+                  </tr>
+                  <tr>
+                      <td>Robot Salvaje</td>
+                      <td>Animación y Aventura</td>
+                      <td>2024</td>
+                  </tr>
+                  <tr>
+                      <td>Godzilla y Kong: El Nuevo Imperio</td>
+                      <td>Ciencia Ficción</td>
+                      <td>2024</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
+      <hr>
+      
+      <footer id="footer">
+          <p style="color: rgb(245, 247, 246); height: 50px">El cine ha sido una fuente 
+              de entretenimiento y liberación de estrés, permitiéndome desconectarme de la realidad por 
+              unas horas. Además, en muchas ocasiones, sus historias y mensajes me invitan a reflexionar 
+              y a ver el mundo desde diferentes perspectivas.</p>
+          <a href="https://www.imdb.com" target="_blank">Explorar más sobre cine</a>
+          <br><br>
+          <a href="mailto:mejorespelis@gmail.com">Enviar consulta</a>
+      </footer>
+      
+      
+      </body>
+  
+  </html>
